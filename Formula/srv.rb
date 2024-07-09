@@ -1,9 +1,8 @@
 class Srv < Formula
   desc "Small, simple, local web server."
   homepage "https://github.com/jmhobbs/srv"
-  url "https://github.com/jmhobbs/srv/archive/3fa0db1e54f2e695aac9eb415fe39e38f2da746a.zip"
-  sha256 "df170efb5efba020203e9abf10fae994e3e544def71f4f92f24fa2aba6517a47"
-  version "0.0.3"
+  url "https://github.com/jmhobbs/srv/archive/refs/tags/v0.0.4.tar.gz"
+  sha256 "7a5f52e66e930b828bc1ad8c3078c6c515953bbfcdf9843167478bd7d8c4c620"
 
   depends_on "go" => :build
 
