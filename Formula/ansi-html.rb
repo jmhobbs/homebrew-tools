@@ -9,4 +9,8 @@ class AnsiHtml < Formula
   def install
     system "go", "build", "-o", bin/"ansi-html", "."
   end
+
+  test do
+    system "true" # TODO
+  end
 end

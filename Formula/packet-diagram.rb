@@ -9,4 +9,8 @@ class PacketDiagram < Formula
   def install
     system "go", "build", "-o", bin/"packet-diagram", "./cmd/packet-diagram"
   end
+
+  test do
+    system bin/"packet-diagram", "-help"
+  end
 end
